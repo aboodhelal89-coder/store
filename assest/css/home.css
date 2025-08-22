@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+}
+.header{
+    height: 100vh;
+    background-image: url(/imeges/header\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    right: 0;
+     background-color: rgba(255, 0, 0, 0.5);
+}
+.navbar a{
+    font-size: 30px;
+    margin-inline: 20px;
+    color: aliceblue;
+    font-family: "Federant", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: gold;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h1{
+    margin-top: 100px;
+    font-size: 45px;
+    color: white;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.link{
+    display: flex;
+    align-items: end;
+    height:550px ;
+}
+.link i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-inline: 15px ;
+
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+.link i:hover{
+    color: gold;
+    background-color: black;
+    border: 3px dotted white;
+    box-shadow: 5px 7px 9px rgba(255, 215, 0, 0.5);
+    transition: all 0.3s ease-out;
+}
+.about{
+    height: 100vh;
+    background-image: url(/imeges/about\ background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.imgabout img{
+    width: 350px;
+    height: 600px;
+    border-radius: 25px;
+    border: 5px groove white ;
+}
+.para-about{
+    width: 50%;
+    text-align: center;
+    font-size: 35px;
+    color: cornsilk;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.cards{
+    height: 100vh;
+    background-image: url(/imeges/card\ background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title h2{
+    color: black;
+    margin-top: 35px;
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    padding: 5px;
+    border: 3px solid black;
+}
+.cards-cloathes1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+.cards-cloathes2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.child{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: rgba(122, 122,115 , 0.7);
+    
+}
+.img-cards{
+    width: 296px;
+    height: 230px;
+    border-radius: 15px;
+    border: 2px inset white ;
+}
+.cards a{
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    color: brown;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.cards a:hover{
+    color: chartreuse;
+    cursor: pointer;
+}
